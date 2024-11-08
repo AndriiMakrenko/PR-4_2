@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ];
 
     const renderAnswers = (index) => {
-        formAnswers.innerHTML = ''; // Clear previous answers
+        formAnswers.innerHTML = ''; 
 
         questions[index].answers.forEach((answer) => {
             const answerItem = document.createElement('div');
